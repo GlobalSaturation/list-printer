@@ -27,6 +27,7 @@ ul {
 /* TODO: change to grid later if going with multiple columns? */
 	display: flex;
 	flex-direction: column;
+	width: 80%;
 }
 
 li {
@@ -45,4 +46,8 @@ li {
 		fill: red;
 		}
 	}
+}
+
+.error-message {
+	color: red;
 }
