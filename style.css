@@ -1,0 +1,48 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	/* border: 1px solid red; */
+}
+
+.icon {
+	height: 24px;
+	width: 24px;
+  vertical-align: middle; /* fixes svg alignment issue */
+}
+
+input {
+	text-align: center;
+}
+
+main {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	max-width: 50rem;
+	margin-inline: auto;
+}
+
+ul {
+/* TODO: change to grid later if going with multiple columns? */
+	display: flex;
+	flex-direction: column;
+}
+
+li {
+	border: 1px dotted gray;
+	display: inline-flex;
+	gap: 5px;
+	justify-content: space-between;
+
+	& button {
+		border: none;
+		cursor: pointer;
+		background: none;
+		fill: black;
+
+		&:hover {
+		fill: red;
+		}
+	}
+}
